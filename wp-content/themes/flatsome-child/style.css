@@ -1,0 +1,2578 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.row.row-large {
+    max-width: 1500px;
+}
+	
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 1.7em;
+    color: #333333;
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+ font-weight:400;
+}
+p{
+font-size: 15px;
+line-height: 1.5em;
+margin: 0 0 9px;
+}
+p a {
+ color: #dc143c !important;
+}
+ p a:hover{
+text-decoration:underline;
+}
+h1.feature-heading {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 400 !important;
+}
+h2.feature-heading {
+    font-size: 18px;
+}
+h2 {
+    font-size: 26px;
+	color: #333333 !important;
+	margin-top:18px;
+	margin-bottom:9px;
+	font-weight: 400 !important;
+}
+h4{
+ font-size:16px;
+ margin-top:10px;
+ margin-bottom:15px;
+ color: #333333 !important;
+ font-weight:400;
+}
+ em{
+font-size:15px;
+}
+em strong{
+font-size:15px;
+}
+h3{
+ font-size:16px;
+}
+.bigreader p {
+font-size: 16px;
+margin-bottom:.8em;
+}
+b, strong {
+    font-weight: 600;
+    color: #333;
+}
+
+p strong {
+    font-size: 15px;
+}
+.component-post-content p strong {
+    font-size: 15px;
+}
+a.accordion-title.plain span:hover{
+    text-decoration: underline;
+}
+img.slides {
+    width: 100%;
+}
+.component-post-content h4 {
+    font-size: 17px;
+    font-weight: 600;
+	color: #000 !important;
+}
+.component-post-content h4 strong {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000 !important;
+}
+p.author-description {
+    font-weight: 400;
+    /* font-size: 15px; */
+}
+/****************header css***************/
+.header-inner .flex-right {
+    flex: 0%;
+}
+.header-inner {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.page-template-page-real-weddings header#header,.page-template-page-editorials header#header{
+    border-bottom: 2px solid #f4b5c0;
+		
+}
+.page-id-409 header#header {
+    border-bottom: 2px solid #f4b5c0;
+}
+.page-id-409 h1{
+padding-top:20px;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link
+{
+margin-left:5px;
+margin-right:5px;
+}
+.nav-spacing-small>li {
+    margin: 0 5px;
+}
+/*****************10-09-19 navigation css********************/
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link:after {
+   display: block;
+    background-color: #dc143c; 
+   position: absolute;
+   bottom: -27px;
+   z-index: 9999;
+   height: 2px;
+   width: 100%;
+   content: "";
+   text-align: center;
+   color: #000 !important;
+  font-weight: 600;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover
+{
+  font-weight: 600;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+   margin: 0 0px 0 0;
+   display: inline-block;
+   height: auto;
+   vertical-align: middle;
+   position: relative;
+  padding: 0px 4px;  
+   color: #000 !important;
+  font-weight: 600;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+   padding: 0;
+    color: #000 !important;
+  font-weight: 600;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link {
+   color: #dc143c !important;
+}
+/****************************************************************/
+header#header {
+    border-bottom:2px solid #f1f1f1;
+}
+.header-button a.button.plain.is-outline.is-small {
+    padding: 3px 10px;
+    width: 100%;	
+}
+a.sidelist {
+    color: #000;
+    font-size: 14px;
+}
+h3.widget-title, span.widget-title {
+    text-transform: none;
+    font-weight: 600;
+	}
+#ajaxsearchlite1 .probox, div.asl_w .probox{
+    height: 32px;
+    border-radius: 3px;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+div.asl_w {
+   width: 100%;
+   height: auto;
+   border-radius: 3px;
+   background-color: #fff;
+   overflow: hidden;
+   border: 0 solid #b5b5b5;
+   border-radius: 0 0 0 0;
+   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+}
+	
+li.html.header-button-2 a ,li.html.header-button-2 a span {
+	color: #dc143c ;
+	    padding: 0px 0px;
+    border-color: #dc143c !important;
+}
+
+ li.html.header-button-2 a span:hover {
+    color: #fff;
+    border-color: #dc143c !important;
+	}
+li.html.header-button-1 a, li.html.header-button-1 a span {
+    color: #dc143c;
+}
+.editcontent {
+  /*   height: 350px; */
+}
+
+.custom-component {
+    padding: 0 15px 20px 15px;
+}
+
+
+span.comments-link.pull-right {
+    display: none;
+}
+/************** Mobile Menu 13-9-19(As)*************/
+
+.mfp-bg.mfp-ready {
+    z-index: 1;
+}
+.off-canvas .nav-vertical .current_page_item .nav-top-link {
+    color: #dc143c;
+}
+.off-canvas-right .mfp-content, .off-canvas-left .mfp-content {
+    background: #efefef;
+    width: 80vw;
+    float: left;
+    text-align: left;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+}
+.nav-sidebar.nav-vertical>li.menu-item.active, .nav-sidebar.nav-vertical>li.menu-item:hover {
+    background-color: rgb(239, 239, 239);
+}
+.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+    padding-left: 18px;
+}
+.nav-vertical li li, .off-canvas .nav-vertical li li>a{
+    padding-left: 0 !important;
+}
+.nav-vertical li li.menu-item-has-children>a {
+    color: #ababab;
+	font-size: 13px;		
+	}
+.nav-vertical>li>ul li a {
+    color: #000;
+	 padding: 4px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.off-canvas .nav-vertical .children {
+    border-top: 2px solid #000;
+    width: 94% !important;
+    margin: auto !important;
+}
+.off-canvas .nav-vertical .current_page_item .children {
+    border-color: #dc143c;
+}
+.off-canvas .nav-vertical>li>a {
+    height: auto;
+    padding: 10px 30px 10px 0;
+    font-size: 16.9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    line-height: 18px;
+    display: block;
+    position: relative;
+}
+
+.off-canvas .nav-vertical .toggle i {
+    font-size: 2em !important;
+    font-weight: 600 !important;
+    color: #000;
+}
+.off-canvas .nav-vertical .current_page_item button i {
+    color: #dc143c;
+    font-weight: 600 !important;
+    font-size: 2em !important;
+}
+.header-button .icon.button {
+    border-color: #ddd !important;
+    padding: 2px 10px !important;
+}
+.header-button .icon.button.icon i {
+    font-size: 2.2em !important;
+    color: #333;
+}
+/* .mfp-bg, .mfp-wrap, .mfp-content {
+    top: 14% !important;
+}*/
+button.mfp-close {
+    color: #000;
+    top: 10px;
+	right: 20px;
+	font-size:3em;
+	} 
+
+.editcredlink p a {
+    color: #000 !important;
+}
+.ddcredit .email, .editcredit .email {
+    font-size: 1.9em;
+    color: #000 !important;
+    image-rendering: -webkit-optimize-contrast;
+    -moz-transition: opacity 0.2s linear;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    opacity: 0.6;
+}
+/**************** Home Page ***************/
+.home h4 {
+    padding-bottom: 20px;
+	padding-top:5px;
+	padding-left:15px;
+	padding-right:15px;
+	}
+.section-content.relative h2.headers-home {
+    margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.section-content.relative h4 {
+    margin-top: 0px;
+	margin-bottom: 5px;
+}
+.media-body.cms-content-container p {
+    font-size: 13px;
+}
+.component-post-content iframe{
+display:initial !important;
+ max-width: 85% !important;
+ margin: auto;
+}
+/****************About us ***************/
+ul.nav.nav-line-bottom.nav-uppercase.nav-size-large.nav-center {
+    border-bottom: 2px solid #cccccc;
+    margin-top: 65px;
+}
+.nav-line-bottom>li>a:before {
+    bottom: -2px !important;
+	 border-bottom: 2px solid #dc143c ;
+}
+li.tab.has-icon a:hover::before{
+    color: #dc143c;
+}
+.nav-line-bottom>li>a:hover::before  {
+ border-bottom: 3px solid #000;
+}
+li.tab.active.has-icon a span {
+    color: #dc143c;
+}
+.graphic.graphic-lg.img-circle i {
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+	margin-top:33px;
+}
+.graphic.graphic-lg {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: AUTO;
+	background: #eee;
+    text-align: center;
+}
+
+.media-left .graphic.img-circle i {
+	padding-top: 17px;
+    background-color: #eee;
+    FONT-SIZE: 4.3em;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #dc143c;
+    border-radius: 50%;
+}
+h3.media-heading {
+    margin-bottom: 5px;
+    font-size: 23px;
+	font-weight:400;
+	color:#333;
+}
+/****************Filter Mobile***************/
+.filterbtnto {
+   /*  color: #dc143c!important;  */
+   cursor: pointer;
+   font-size: 13px !important;
+   font-weight: 600;
+   width: auto;
+   padding: 6px 24px;
+   float: left;
+   display: block;
+   /* padding: 5px; */
+   border: 2px solid;
+   text-align: center;
+   color: #fff;
+   background-color: #dc143c;
+   line-height: 1.42857143;
+   border-radius: 3px;
+   cursor:pointer;
+   margin-left: 15px;
+    margin-bottom: 10px;
+}
+a#content-filters-clear {
+  text-transform: uppercase;
+	background-color: #dc143c!important;
+	 position: fixed;
+    cursor: pointer;
+    font-size: 13px !important;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-align: center;
+	color:#fff;
+	top: 50px;
+	height: 32px;
+	box-shadow: 0px 2px 2px 0px #484848;
+   padding: 10px;
+   height: 40px;
+}
+a#content-filters-close {
+    position: fixed;
+   float: right;
+   top: 50px;
+   left: 50%;
+   font-size: 13px !important;
+   font-weight: 600;
+   padding: 10px;
+   right: 35px;
+   background: #e6e6e6;
+   height: 40px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #333333;
+   display: block;
+   cursor:pointer;
+}
+
+.col.medium-12.small-12.filtermobdiv {
+    padding-bottom: 0px;
+}
+
+a.single-more-button.uppercase {
+    border: 1px solid #dc143c;
+	background-color:#fff;
+    border-radius: 3px;
+	padding:6px 24px;
+	color: #dc143c !important;
+	font-size: 13px;
+    line-height: 1.42857143;
+}
+a.single-more-button.uppercase:hover  {
+   background-color:#dc143c;
+    color: #fff !important;
+}
+
+/**************** Filter Mobile ***************/
+/****************cOMMENT fORM***************/
+	input#submit {
+    float: right;
+    background-color: #fff;
+    color: #dc143c;
+    border-color: #dc143c;
+}
+input#submit:hover {
+    background-color:#dc143c;
+    color:#fff;
+    border-color: #dc143c;
+}
+p.comment-form-comment label {
+    font-size: 23px;
+    font-weight: 400;
+	}
+textarea#comment {
+  
+    border-radius: 5px;
+}
+.content-editorial {
+    margin-bottom: 30px;
+}
+.content-editorial-more {
+    margin-bottom: 40px;
+	padding-bottom:20px;
+}
+/****************Sidebar css***************/
+.checkbox-edits li.all-handle a {
+ color: #dc143c !important;
+ font-weight:600 !important;
+}
+a.sidelist:hover {
+    text-decoration: underline;
+}
+ul.search-postlist p a.sidelist {
+    color: #333 !important;
+}
+ul.category-edit {
+	margin-top:10px;
+    list-style-type: none;
+}
+ul.category-edit li {
+   margin:0px;
+}
+h4.content-filters-title {
+    font-size: 18px;
+}
+.checkbox-edits input[type="checkbox"] {
+    visibility: hidden;
+}
+.checkbox-edits li a  {
+    margin:0px;
+    font-size: 14px;
+    color: #333;
+}
+.hide-subcat a {
+	margin:0px;
+    font-size: 14px;
+    color: #333;
+}
+.hide-subcat label {
+	margin:0px;
+}
+.checkbox-edits li a:hover  {
+    margin:0px;
+    font-size: 14px;
+    color: #888;
+}
+
+.checkboxfocus {
+    font-weight: bold;
+    color: #dc143c !important;
+}
+.checkbox-weds input[type="checkbox"] {
+    visibility: hidden;
+	display:none;
+}
+.hide-subcat label {
+    font-weight: 400;
+	color:#333;
+	font-size:14px;
+}
+label.country-tag a {
+    color: #333;
+	 font-size: 14px;
+    font-weight: 400;
+}
+label.country-tag a:hover
+{
+color:#888888;
+}
+
+.checkbox-weds label  {
+    color: #333;
+    font-weight:400;
+	font-size:14px;
+}
+.checkboxweds {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.checkbox-weds.recollapse {
+    padding: 0px 0 0px 15px;
+}
+.checkbox-weds {
+    padding: 0px 0 5px 15px;
+}
+i.panel-open.fa.fa-chevron-up,i.fa.fa-chevron-down.panel-open {
+    float: right;
+    padding-right: 15px;
+	padding-top:5px;
+    font-size: 17px;
+    color: #000;
+}
+i.fa.fa-angle-down.fa-lg,i.fa.fa-angle-up.fa-lg {
+    padding-right: 5px;
+}
+a.collap {
+    color: #000;
+	font-weight:600;
+}
+a.collap:hover{
+ color: #000;
+	font-weight:600;
+}
+/****************Shortcode css***************/
+	.shortode-similar h3.short-headings {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	 font-size: 20px;
+	 color: #dc143c ;
+	 font-weight:normal;
+}
+.shortode-similar h3.shortedit-headings {
+    margin-top: 20px;
+	margin-bottom: 20px;
+	 font-size: 23px;
+	  font-weight:normal;
+	   color: #333333 ;
+}
+
+/****************Author Profile***************/
+
+.button.icon.circle {
+    margin-right: 10px;
+	}
+	.blog-share .button.icon.circle {
+    margin-right: 4px;
+}
+span.date {
+    font-size: 13px;
+    color: #888888;
+}
+a.comments,a.comments:hover{
+	font-size: 13px;
+    color: #000000;
+}
+
+.author-box {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+.author-box .author-img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.author-box .author-img img {
+    border-radius: 50%;
+}
+.author-box .author-name {
+    clear: none;
+    display: inline;
+}
+h3.author-name a {
+    color: #dc143c;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size:14px;
+}
+a.btn-de {
+color: #dc143c;
+font-size:15px;
+cursor:pointer;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:active,#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:focus {
+    color: #dc143c;
+}
+a.btn-de:hover {
+color: #dc143c;
+text-decoration:underline;
+}
+p.author-description {
+    margin-bottom: 0px;
+}
+div#hiddenexcerpt {
+    padding-left: 100px;
+}
+ #hiddenexcerpt{
+    display: none;
+}
+
+  /**************** Author Profile End ***************/
+  .checkbox-weds button {
+    margin: 0px;
+    padding: 0px;
+}
+ /**************** Sidebar Css ***************/ 
+  .filter-heading {
+	margin-top: 15px;
+	padding-top:5px;
+	padding-bottom:5px;
+    margin-bottom: 22px;
+    background-color: #f5f5f5;
+    border-bottom: #ddd 1px solid;
+}
+.filter-heading.hidden-content-reveal a {
+    font-size: 15px;
+}
+a span {
+    color: #000;
+    font-weight: 600;
+}
+.filter-heading a {
+    padding: 10px 40px 10px 15px;
+}
+/****************menu css***************/
+li.mega-link-to-page {
+    color: #dc143c !important;
+	margin-top:30px !important;
+	
+}
+
+li.mega-link-to-page a.mega-menu-link{
+ color: #dc143c !important;
+ margin-left:12px !important;
+	padding-left:5px !important;
+	font-weight:700 !important;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu {
+    top: 55px;
+   z-index: 99999;
+   box-shadow: 0px 1px 2px 0px #d0d0d0;
+	}
+	.mega-current-menu-item:active .mega-sub-menu,.mega-current-menu-item:hover .mega-sub-menu {
+    border-top: 2px solid;
+    border-color: #dc143c!important;
+}
+
+/*************static page row css ***********/
+h1.about-subtitles {
+    color: #333 !important;
+    font-weight: 400 !important;
+    margin-bottom: 60px;
+	margin-top: 20px;
+}
+h4.text-center.cms-content-container p {
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.tab-panelrow .box-text.text-center {
+    display: none;
+}
+.container .section, .row .section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-content.relative h2 {
+    font-weight: 400;
+    color: #333;
+    font-size: 26px;
+	margin-bottom: 45px;
+}
+.accordion-title {
+    padding: 0.1em 2em !important;
+    border-top: none !important;
+	 font-size: 17px !important;
+	}
+.toggle i {
+    font-size: 1.2em !important;
+}
+button i .button i {
+   top: .5px !important;
+}
+.accordion .active .toggle {
+    top: -.3em !important;
+    opacity: 1;
+    color: #000;
+}
+.accordion .toggle {
+    top: .01em !important;
+    color: #000 !important;
+    opacity: unset;
+	}
+label.country-tag {
+    margin: 0px;
+}
+
+a.label.label-default {
+    font-size: 80%;
+}
+.n-space span {
+    line-height: 0em;
+    font-size: 13px;
+	font-weight: 600;
+}
+/*************static page css ***********/
+.side-feature {
+    padding-bottom: 5px;
+}
+.privacycontents p, .privacycontents ul li {
+    line-height: 1.5em;
+    font-size: 13px !important;
+	margin-bottom:10px;
+}
+.privacycontents h3.signle-content-subheadings
+{
+margin-bottom:10px;
+}
+.privacycontents ul li{
+   margin-bottom: 0px;
+    line-height: 1.5em;
+	}
+.termsclass {
+    margin-bottom: 35px;
+}
+/*************17-08-19***********/
+.real-brides-section {
+    border-top: 2px solid rgb(220, 20, 60);
+}
+.real-brides-section .shortode-similar, .editorials-section .shortode-similar {
+    display: none;
+    opacity: 0;
+}
+a.button.white.is-outline.lowercase.real-btn span {
+	
+    color: #dc143c!important; 
+	cursor: pointer;
+	font-size: 13px !important;
+	font-weight: 600;
+	width: 235px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	cursor:pointer;
+}
+a.button.white.is-outline.lowercase.real-btn {
+    padding: 0 0em !important;
+    text-align: center;
+	}
+a.button.white.is-outline.lowercase.real-btn:hover {
+	border-radius:3px !important;
+	background-color:#dc143c !important;
+	color: #fff !important;	
+}
+
+a.button.white.is-outline.lowercase.real-btn span:hover {
+    color: #fff !important;
+	font-size: 13px !important;
+    width: 235px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button span {
+    line-height: 1.9;
+}
+.editorial-btn span {
+    color: #fff;
+    padding: 11px 28px;
+    font-size: 18px;
+}
+.real-brides-section h4, .editorials-section h4 {
+    font-size: 16px;
+}
+.realwed-gallery {
+    padding-bottom: 30px;
+}
+/*********** footer CSS Starts *********************/
+.footer-share-icons .social-links li a {
+    background: #333333;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: white;
+}
+.footer-wrapper {
+    border-top: 2px solid #000!important;
+}
+.footer-share-icons .social-links li {
+    display: inline-block;
+    margin: 5px 7px;
+	}
+		.fa-2x {
+         font-size: 1.5em !important;
+     }
+ul.social-links.unlist li a {
+    background: #333333;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    -moz-transition: background 0.2s linear;
+    -webkit-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+}
+.footer-share-icons .social-links li a.facebook:hover, .social-links li a.facebook:active {
+    background: #3B5998;
+}
+.footer-share-icons .social-links li a.twitter:hover, .social-links li a.twitter:active {
+    background: #00aced;
+}
+.footer-share-icons .social-links li a.instagram:hover, .social-links li a.instagram:active {
+    background: #3f729b;
+}
+.footer-share-icons .social-links li a.pinterest:hover, .social-links li a.pinterest:active {
+    background: #cc2127;
+}
+.footer-share-icons .social-links li a.whatsapp:hover, .social-links li a.whatsapp:active {
+    background: #51cb5a;
+
+}
+.footer-menus-display,.footer-share-icons,.footer-logo {
+    text-align: center;
+    /* display: inline-block; */
+}
+ul.menus-footer li {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+ul.menus-footer li a {
+    color: #000;
+}
+ul.menus-footer {
+    font-size: 13px;
+}
+ul {
+    margin-left: 25px;
+}
+.copyrights{
+font-size: 12px;
+text-align:center;
+color: #000;
+}
+h2.headers-home {
+    line-height: 1.2em;
+}
+.more {
+    width: 100%;
+    float: left;
+}
+.details .location p {
+    line-height: 1.25em;
+	font-size:13px;
+	}
+/*********** footer CSS Ends *********************/
+.loader1 {
+  background-image: url("assets/img/Ellipsis-2.1s-87px.gif");
+}
+.real-brides-section h2.headers-home a,.editorials-section h2.headers-home a {
+   color:#dc143c;
+	font-size:26px;
+	font-weight: 600;
+	
+}
+.real-brides-section h2.headers-home a:hover, .editorials-section h2.headers-home a:hover {
+	    font-weight: 600;
+    text-decoration: underline !important;
+}
+
+.real-brides-section-col.details,.details 
+{  
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29); 
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+ .details {
+       padding: 10px 15px;
+	/* overflow: hidden; 
+     clear: both;	 */
+}
+.recent-short.realpadding .details {
+    padding: 7px 10px 5px;
+}
+.recent-short .details {
+	width: 100%;
+    padding: 10px 15px;
+}
+.realpage .details {
+    width: 100%;
+    padding: 7px 10px 5px;
+}
+.details h3 {
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 2px;
+    line-height: normal;
+}
+ 
+.home .details .meta a.author {
+    margin-top: 5px;
+	float: left; 
+    font-size: 13px;
+    color: #888;
+	text-align: center;
+    width: 100%;
+}
+.details h3 a {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+	line-height: 1.2;
+    max-height: 43px;
+    overflow: hidden;
+    padding-bottom: 8px;
+	margin-bottom: 10px;
+}    
+    
+.page-template-page-real-weddings h4.post-title-slider{
+	font-size: 14px;	
+    line-height: 1.2em;
+    overflow: none !important; 
+    height: 40px;
+	margin: 4px 0 5px;
+   padding-top: 5px;
+   font-weight: normal;
+   color: #000000 !important;
+}
+
+.edit-more  .details.short-single h3 a {
+font-size: 14px;
+ max-height: 35px;
+  line-height: 1.25em;
+}
+.edit-more .details {
+	width: 100%;
+    padding: 15px 7px;
+}
+.wedding-more .details {
+    width: 100%;
+    padding: 7px 10px 5px;
+}
+.wedding-more .details h3 {
+    font-size: 15px;
+	
+	}
+.wedding-more .details h4 {
+     font-size: 14px;
+}
+.details h4 {
+    font-size: 14px;
+    margin: 4px 0 6px;
+    border-top: 2px solid #e6e6e6;
+    padding-top: 5px;
+	font-weight: 400;
+    color: #000 !important;
+}
+ .details.short-single h3 a {
+    font-size: 17px;
+    max-height: 37px;
+} 
+.details.short-single .meta a.author {
+ margin-top: 10px;
+}
+.home h4.post-title-slider {
+    overflow: hidden;
+    max-height: 45px;
+}
+.home .details h4 {
+    font-size: 14px;
+    margin: 3px 0 2px;
+    border-top: 2px solid #e6e6e6;
+    padding-top: 5px 0px 0px 0px;
+	color: #000!important;
+    font-weight: normal;
+	line-height:normal;
+}
+ .details .location {
+    color: #888;
+	font-size: 13px;
+    height: 22px;
+    overflow: hidden;
+}
+.details .meta {
+ border-top: 2px solid #e6e6e6;
+ margin-top: 12px;
+ margin-bottom:5px;
+ text-align:center;
+}
+.details .meta a.author {
+    margin-top: 10px;
+   /*  float: left; */
+    font-size: 13px;
+    color: #888;
+    
+}
+h3.shortedit-headings.authortitle span{
+    border-top: 2px solid #e6e6e6;
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+	margin-top:30px;
+}
+.button span {
+    font-size: 1em;
+}
+
+.form-flat button, .form-flat input {
+    border-radius: 3px !important;
+}
+.col.medium-4.small-6.large-4.n-space {
+    padding-bottom: 0px;
+	line-height: 1.2em;
+
+}
+ .button.is-outline {
+  /* border: unset;*/
+    border: 1px solid  #dc143c;	
+} 
+
+ a.icon.button.circle.is-outline.tooltip.facebook.tooltipstered, a.icon.button.circle.is-outline.tooltip.twitter.tooltipstered, a.icon.button.circle.is-outline.tooltip.email.tooltipstered, a.icon.button.circle.is-outline.tooltip.pinterest.tooltipstered, a.icon.button.circle.is-outline.tooltip.whatsapp.tooltipstered {
+    border: none;
+    background-color: #cccccc;
+    color: #fff;
+    margin-bottom: 0px;
+    min-width: 26px !important;
+    min-height: 26px !important;
+    line-height: 1;
+    padding-top: 5px;
+} 
+/* .social-icons i {
+    font-size: 1.1em;
+    min-width: 1em;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    background-color: #bbb;
+    color: #fff;
+    margin-bottom: 0px;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    padding: 2px 0px 2px 0px;
+}
+.icon-facebook:hover {
+    background-color: #3a589d;
+    border-color: #3a589d;
+} */
+
+input[type='submit'].is-outline, input[type='reset'].is-outline, input[type='button'].is-outline
+{
+border: 2px solid #bbb !important;
+}
+   
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea {
+    -webkit-appearance: none;
+    height: 31px;
+	}
+.header-button .is-outline:not(:hover) {
+    color: #000;
+}
+.badge.post-date {
+    left: 3%;
+	}
+	.flex-row.recent-blog-posts.align-top.pt-half.pb-half {
+    padding-left: 10px;
+}
+.entry-image.relative img {
+    padding-left: 30px;
+	padding-right:30px;
+	}
+	.authorboxconent
+/*=============EReal wedding page css=======*/
+.large-9.col.real-wedrow {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.custom-pagecontents {
+    padding-top: 15px;
+}
+.termsclass h4 {
+    margin: 0px;
+}
+.termsclass h4:hover {
+    text-decoration-line: underline;
+}
+.n-space {
+    padding-bottom: 0px;
+}
+.highlight.content-divider.divider {
+    margin: 50px auto 20px;
+}
+.highlight.divider {
+    background-color: #e6e6e6;
+    margin: 10px 0 10px;
+}
+.realwedding .highlightme {
+	height: 2px;
+    width: 98%;
+}
+.highlight {
+    height: 2px;
+    width: 100%;
+	}
+.heading-wed h1 {
+    text-transform: capitalize !important;
+    font-size: 33px;
+    font-weight: 400 !important;
+	margin-bottom: 0px;
+	line-height: 1em;
+}
+.subhead-wed h4 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 9px;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+
+
+.slider-content{
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     z-index: 100;
+}
+.owl-nav {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+  
+}
+.singlereal-width .owl-carousel .owl-nav button.owl-prev, .singlereal-width .owl-carousel .owl-nav button.owl-next {
+    font-size: 20px;
+    width: 24px;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    color: #fff !important;
+    font-size:30px;
+    font-weight: 700;
+    position: absolute;
+	width:30px;
+	opacity: 0.7;
+    top: 0px;	
+}
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover {
+opacity: 1;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent!important;
+	}
+.owl-carousel .owl-nav button.owl-prev{
+	left:0px;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right:0;
+}
+.owl-carousel .owl-item li {
+    list-style: none;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+}
+ul#owl-demo {
+    margin: 0;
+}
+ul.page-numbers.nav-pagination.links.text-center {
+    width: 100%;
+    float: left;
+}
+footer.entry-meta.clearfix {
+    padding: 0px;
+}
+/**************************Single wedding styles *******************************/
+.realwed-gallery {
+    padding-top: 20px;
+}
+h1.post-title-slider {
+    margin: 0px auto 15px;
+    font-size: 30px;
+    text-align: center;
+	font-weight:Normal !important;
+}
+h2.coluple-name {
+	font-size: 24px;
+	font-weight:Normal;
+}
+
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.label-default {
+    background-color: #888;
+}
+div#hidden .btn.btn-default {
+    width: 145px;
+	color: #333;
+	border: 1px solid #999;
+}
+ div#hidden .btn.btn-default, div#show .btn.btn-default {
+	color: #333;
+	border: 1px solid #999;
+	font-size: 13px;
+    line-height: 1.42857143;
+    border-radius: 3px;
+	padding:6px 24px;
+	cursor:pointer;
+}
+ div#hidden .btn.btn-default:hover div#show .btn.btn-default:hover {
+	color: #000;
+	border: 1px solid #000;
+ }
+span a.label:hover {
+  color: #fff;
+   background: #8b8b8b;
+}
+.label {
+    display: inline-block;
+    margin-bottom: 3px;
+    padding-top: 0.3em;
+}
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item > ul.mega-sub-menu {
+   display: block;
+   visibility: hidden;
+   opacity: 1;
+   pointer-events: auto;
+   padding: 0 20px 0 5px !important;
+}
+h3.signle-content-subheadings {
+	font-weight: 300;
+	color: #dc143c;
+    font-size: 24px;
+    margin-bottom: 22px;
+   margin-top: 18px;
+}
+h3.signle-content-subheadings a{
+	font-weight: 300;
+	color: #dc143c;
+    font-size: 24px;
+	 margin-top: 22px;
+    margin-bottom: 22px;
+    
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+ }
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #999;
+}
+
+#hiddencontent{
+display:none;
+}
+h4.anchor-tag{
+color: #dc143c !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 0 12px;
+}
+h5.feature-label {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    line-height: 1.3;	
+}
+.col.medium-12.small-12.large-6.side-feature {
+    padding-bottom: 5px;
+/*     padding-right: 10px;
+    padding-left: 10px; */
+}
+.page-wrapper-editorial.row {
+    max-width: 100%;
+	 padding-top: 40px;
+}
+
+	a.btndef {
+    cursor: pointer;
+}
+h4.post-title-slider {
+    overflow: hidden;
+    line-height: 1.2;
+    max-height: 40px;
+	
+}
+.content-page-real .highlight.content-divider.divider {
+    margin-top: 50px;
+}
+p span {
+    font-size: 15px;
+}
+h4 a{
+   color: #dc143c !important;
+   text-decoration: none !important;
+}
+.photonic-stream {
+    margin:0;
+}
+.single-tips-trends .shortode-similar {
+    padding-bottom: 0px;
+}
+
+.shortode-similar {
+    padding-bottom: 10px;
+}
+.shortode-similar.editmorediv {    
+	width: 100%;
+	float: left;
+	line-height: 4em;
+}
+/*************** Page width css  ***************/	
+.row.row-collapse.row-full-width {
+    padding: 0px;
+}
+
+.noposts {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+/*************** single editorials css  ***************/
+.media-editcaption span.creds {
+    float: right;
+}
+.media-editcaption .credit {
+    width: 100%;
+    float: left;
+	padding-bottom: 8px;
+}	
+.credit a.email {
+    position: relative;
+    float: right;
+	font-size: 25px;
+	color: #bbb !important;
+}
+.credit a.email:hover {
+color: #000 !important;
+}
+.credit p.caps  {
+    float: left;
+    position: relative;
+	
+}
+p.caps a{
+	color: #000 !important;
+}
+.media-editcaption p {
+    margin-bottom: 0px;
+	}
+.content-editorial-more {
+    text-align: center;
+}
+.component-post-content {
+    text-align: center;
+}
+.component-post-content p {
+    margin-bottom: 10px;
+}
+h1.editorial-title {
+    font-size: 33px;
+    line-height: 1.1;
+    margin: 0px;
+}
+.conedits-img {
+    width: 100%;
+    float: left;
+	padding-bottom:25px;
+	padding-top: 5px;
+}
+.media-editcaption {
+	padding-top:10px;   
+}
+/*************** Comment part css  ***************/	
+.details{
+	height: 105px; 
+	float:left;
+	width:100%;
+	}
+p.logged-in-as {
+    display: none;
+}
+h3#reply-title {
+    display: none;
+}
+a.button.primary.text-uppercase.real-btnask {
+    text-transform: uppercase;
+    margin: 0px;
+	font-size:13px;
+}
+h4.text-success{
+    color: #dc143c !important;
+	font-size: 17px;
+	transform: scale(.9);
+}
+.box-text-inner p {
+    font-size: 13px;
+	transform: scale(.8);
+}
+.img-scale h4.text-success{
+transform: scale(1.5);
+}
+.single-realweddings .row.row-collapse.row-full-width {
+    max-width: 1500px !important;
+	}
+	.row.headersubsec-realwed {
+    text-align: center;
+}
+
+.pswp__bg {
+    background-color: #000;
+    opacity: .9 !important;
+}
+.search .row, .author .row {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.search .post-sidebar.large-3.col, .author .post-sidebar.large-3.col {
+    border-left: 1px solid #ececec !important;
+	padding-left: 25px;
+}
+footer.entry-meta {
+     border-bottom: 0px; 
+}
+h1.page-title.is-large.uppercase {
+    Padding-top:20px;
+    font-size: 33px;
+    color: #333;
+    font-weight: 400;
+}
+h3.widget-title, span.widget-title {
+    font-size: 22px;
+	}
+	.single-titles {
+    text-align: center;
+}
+.meta-part {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.edit-blog-share {
+    text-align: center;
+}
+a.label.label-default:hover {
+    background-color: #6f6f6f;
+}
+h3.shortedit-headings.moreheading {
+    padding-left: 15px;
+}
+.highlight.content-divider.divider.large {
+    margin-top: 60px;
+}
+#mega-menu-primary .mega-sub-menu #mega-menu-item-496 a {
+   float: right !important;
+   width: auto !important;
+}
+
+li#mega-menu-item-496 {
+   border-top: 1px solid #e5e5e5 !important;
+}
+/*******13-09-19 realwedding more content******/
+.medium-6.detailcredit,  .editcredlink  {
+    float: left;
+    width: 100%;
+    margin-top: 10px;	
+}
+.ddcredit, .editcredit{
+	width: 100%;
+	margin-top: 10px;	
+	float: right;
+}
+.detailcredit p , .editcredlink p{
+    float: left;
+    margin-bottom: 0;	
+}
+.ddcredit p, .editcredit p {
+    float: right;
+    margin-bottom: 0;	
+}
+
+.details-postimg img {
+    width: 100%;
+    border-radius: 3px;
+}
+.detailstext {
+    width: 100%;
+    float: left;
+    text-align: left;
+	margin-top: 0px;
+    margin-bottom: 40px;
+}
+.detailstext h4 {
+    margin: 10px 0 20px 0;
+}
+.real-subheader-part {
+    padding-bottom: 30px;
+}
+.edit-more {
+    padding: 0 10px 30px;
+}
+.active{
+    color: #e8253b !important;
+    font-weight: bold;
+}
+
+/**************14-09-19***************/
+.no-marg {
+    font-size: 24px !important;
+    font-weight: 300;
+    color: #dc143c;
+    margin-bottom: 22px;
+    padding-top: 20px;
+}
+.detailmargin {
+    margin-bottom: 35px;
+    width: 100%;
+    float: left;
+}
+#show {
+   /*  margin-top: 20px; */
+    margin-bottom: 8px; 
+    width: 100%;
+    float: left;
+}
+
+.authorsec h3.shortedit-headings.authortitle {
+    margin: 0px;
+}
+.authorsec h3.shortedit-headings.authortitle span{
+ margin-top: 30px;
+}
+.wedding-more .details .location p {
+   line-height: 1.1em;
+    height: 18px;
+    overflow: hidden;
+}
+.owl-theme .owl-nav i {
+    font-size: 24px;
+}
+.min_heaight {
+    /* width: 100%; */
+    min-width: 50px;
+    /* float: left; */
+   /*  margin-bottom: 20px; */
+    height: 235px;
+    overflow: hidden; 
+    position: relative;
+    display: block;
+}
+div#hidden {
+    padding-bottom: 20px;
+	padding-top: 20px;
+}
+.min_heaight:after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 8px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=0);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+.realwed-gallery {
+    width: 100%;
+    float: left;
+	padding-top: 0;
+}
+.show_pros .btn, .hide_pros .btn {
+    padding: 6px 24px;
+    white-space: normal;
+    -moz-transition: background 0.15s linear;
+    -webkit-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+    border: 1px solid #999;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+}
+.pagination-auth{
+width:100%;
+float:left;
+}
+.pagination-auth  ul {
+width:100%;
+float:left;
+text-align:center;
+list-style-type:none;
+
+}
+.pagination-auth ul li {
+display:inline-block;
+margin: 0 .4em;
+}
+.pagination-auth ul li span, .pagination-auth ul li a {
+    display: block;
+    height: 2.25em;
+    line-height: 2em;
+    text-align: center;
+    width: auto;
+    min-width: 2.25em;
+    padding: 0 7px;
+    font-weight: bolder;
+    border-radius: 99px;
+    border: 2px solid currentColor;
+    transition: all .3s;
+    vertical-align: top;
+    color: #000;
+}
+/*************** category pagecss  ***************/
+.row.row-large.row-divided.custom-categorypage {
+    padding-top: 40px;
+}
+.col.medium-12.small-12.large-3.editcat {
+    padding-top: 10px;
+}
+.authorboxconent .entry-image.relative img {
+    padding-left: 0px;
+	padding-right: 0px;
+	}
+/*************** Featured Css  ***************/
+/* .hNniYt::after {
+    content: "Featured";
+}
+.hNniYt {
+    text-align: center;
+    line-height: 1.5rem;
+    position: absolute;
+    letter-spacing: 0.1rem;
+    background-color: #dc143c;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0px 0.5rem;
+    border-radius: 2px;
+	z-index: 999;
+} */
+
+.featured_content {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+h2.featured-title-slider a {
+    color: #fff;
+}
+.featured_item{
+position:relative;
+}
+.featureid.overlay{
+z-index: 1;
+ background-color: rgba(0,0,0,0.3) !important;
+}	
+image.relative.authorimgs {
+    max-height: 300px;
+    width: 100%;
+    float: left;
+}
+
+.heading-catpage h1 {
+    margin-bottom: 0px;
+}
+.page-id-2083 .subhead-wed h4{
+ margin: 0px;
+}
+.nopadding-home .col {
+    padding: 0px;
+}
+.home-slider-section .row {
+    padding: 0px !important;
+}
+.image-class.featured_item.item {
+    cursor: pointer;
+}
+span.widget-title a {
+    text-decoration: none;
+}
+span.widget-title a span {
+    text-decoration: none;
+}
+h2.featured-title-slider{
+	text-align: center;
+    position: absolute;
+	top: 35%;
+	color:#fff !important;
+	Font-weight:600 !important;
+    text-transform: capitalize;
+}
+a#open-mc-popup span {
+    color: #dc143c;
+}
+a#open-mc-popup span:hover {
+    color: #fff !important;
+}
+
+/*************** Author Page Css  ***************/
+.author .entry-header-text, .search .entry-header-text{
+    padding: 0.5em 0 0.5em !important;
+}
+.authorimgs .badge.absolute.top.post-date.badge-outline {
+    display: none;
+}
+h4.authorby {
+	padding:10px;
+    position: relative;
+	text-align: center;
+}
+h4.authorby span{
+ font-size: 18px;
+ color: #fff !important;
+}
+h4.authorby a {
+    font-size: 17px;
+    text-align: center;
+    color: #fff !important;
+}
+h4.authorby a:hover {
+    font-size: 17px;
+    text-align: center;
+    color: #fff !important;
+}
+
+/*************** Search Page Css  ***************/
+.search  h1.page-title.is-large.uppercase, .author h1.page-title.is-large.uppercase {
+    text-transform: capitalize;
+	 padding-top: 10px;
+    margin-bottom: 10px;
+	}
+.badge {
+    height:4em !important;
+    width: 4em !important; 
+	}
+	
+/***************************************************************************************/
+              /*            ADD MOBILE ONLY CSS HERE          */
+/********************************************************************************************/
+@media only screen and (min-width: 549px) {
+
+.space-topteam {
+    margin-top: 85px;
+}
+.col-inner ul li.tab {
+    margin-left: 40px !important;
+}
+.mfp-content{
+top: 16.5% !important;
+}
+.no-gutter {
+    padding: 0px;
+    transform: scale(1.3);
+}
+
+}
+
+@media only screen and (max-width: 549px) {
+
+h4.authorby {
+	top: 60%;
+}
+a.icon.button.circle.is-outline.tooltip.facebook.tooltipstered, a.icon.button.circle.is-outline.tooltip.twitter.tooltipstered, a.icon.button.circle.is-outline.tooltip.email.tooltipstered, a.icon.button.circle.is-outline.tooltip.pinterest.tooltipstered, a.icon.button.circle.is-outline.tooltip.whatsapp.tooltipstered {
+    padding-top: 7px;
+}
+.checkbox-weds label {
+    margin-bottom: 8px;
+}
+ul.social-links.unlist li a {
+padding-top:7px;
+font-size: 1.5em;
+}
+.col.medium-6.small-12.large-4.recent-short {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.img-scale h4.text-success {
+    transform: scale(2.0);
+}
+.box-text-inner p {
+    padding: 8px;
+    transform: scale(1.5);
+}
+h4.text-success{
+  
+	transform: scale(1.6);
+}
+.graphic.graphic-lg{
+   width: 130px;
+    height: 130px;
+}
+.graphic.graphic-lg.img-circle i {
+    font-size: 5.5em;
+}
+.media-left .graphic.img-circle i {
+    padding-top: 25px !important;
+}
+.no-gutter {
+    transform: scale(.7);
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+.img-scale{
+    transform: scale(.5);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.col.noshow {
+    display: none;
+}
+.mfp-content{
+top: 14% !important;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+.coneditscaptions {
+    width: 80%;
+    margin: auto;
+}
+
+.single-titles h2.coluple-name {
+   margin:0;
+   /*  margin-bottom: 20px; */
+	/* padding-left: 164px; */
+}
+ul.social-links.unlist li a.whatsapp {
+    display: none;
+}
+.img-scale{
+    transform: scale(.7);
+}
+.media-body.cms-content-container {
+  /*   padding-left: 124px; */
+}
+.row.custom-pagecontents
+{
+	padding-left: 1%;
+    padding-right: 1%;
+}
+.col-xs-12.col-lg-8.author-info {
+     width: 79%;
+}
+
+}
+@media only screen and (max-width: 768px) {
+.component-post-content iframe{
+display:initial !important;
+ max-width: 100% !important;
+
+}
+.col.medium-12.small-12.large-12.realwedauthor {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.real-subheader-part .blog-share {
+    text-align: center;
+}
+
+.media-left .graphic.img-circle i {
+    padding-top: 18px;
+    FONT-SIZE: 4em;
+    width: 95px;
+    height: 95px;
+	}
+	
+}
+@media only screen and (min-width: 849px) {
+.col.medium-12.small-12.large-8.x-large-9.ms8-hidden {
+    padding-bottom: 0px;
+}
+div#owl-featuredemo .item {
+    position: relative;
+    height: 500px;
+}
+.featuredreal .details {
+    padding: 12px 10px 5px;
+}
+.media-left .graphic.img-circle {
+    /* position: relative;
+    top: 60px; */
+	padding-right: 20px;
+	 text-align: center;
+}
+.media-left {
+    float: left;
+    width: 23%;
+    vertical-align: middle;
+	}
+.media-body.cms-content-container {
+    padding: 40px 0px 0 30px;
+    width: 77%;
+    float: left;
+}
+.col.medium-6.small-12.large-2.ms4-hidden
+{
+max-width: 26%;
+}
+.filtermobdiv{
+display:none;
+}
+a#content-filters-close {
+    display: none;
+}
+a#content-filters-clear {
+    display: none;
+}
+.filterbtn {
+    display: none;
+}
+.ms4-hidden {
+    float: right;
+}
+.ms8-hidden {
+    float: left;
+}
+.single-titles {
+    position: relative;
+}
+
+}
+@media only screen and (max-width: 849px) {
+
+
+h2.featured-title-slider{
+	line-height:1.2;
+	font-size: 30px !important;
+	padding-left:5px;
+}
+a.sidelist {
+padding-top:20px;
+    }
+.row.row-large.row-divided.custom-blogpage {  
+ padding: 30px 0px 0px 0px;
+}
+.realwed-gallery {
+    margin-bottom: 20px;
+}
+div#owl-featuredemo.owl-carousel .owl-nav button.owl-prev, div#owl-featuredemo.owl-carousel .owl-nav button.owl-next {
+    
+    top: 15px;	
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    
+    top:-10px;	
+}
+div#owl-featuredemo .item {
+    position: relative;
+    height: 650px;
+}
+.min_heaight {
+    height: 227px ;
+	}
+.editpage .col-inner, .recent-short .col-inner, .authcat .col-inner, .editcat .col-inner {
+   margin: auto;
+   max-width: 400px;
+   width:100%;
+}
+
+.realpage .realweddings .col-inner, .editpage .editorials .col-inner  {
+    margin: auto;
+    max-width: 400px;
+}
+.media-left .graphic.img-circle {
+    padding-bottom: 20px;
+}
+.media {
+    text-align: center;
+}
+.col.medium-10.small-12.large-3.n-space {
+    padding-bottom: 0px;
+}
+
+div#content-filters {
+    padding-top: 20px;
+}
+.col.medium-12.small-12.filtermobdiv {
+    padding-bottom: 0px;
+}
+.post-sidebar.large-3.col {
+    padding: 5px;
+}
+div#secondary-mobile-filter{
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: visible;
+    left: 10px;
+    top: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: white;
+	display:none;
+    padding: 30px 20px 10px;
+    margin: 0px;
+    z-index: 1080;
+}
+div#secondary-mobile-filter {
+   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
+}
+.col.medium-6.small-12.large-4.editpage {
+    margin-bottom: 85px;
+}
+
+.owl-nav {
+    top: 40% !important;
+}
+.owl-nav {
+    top: 78% !important;
+    bottom: 0;
+    background: rgba(50, 50, 50, 0.6);
+}
+.owl-carousel .owl-nav  .owl-prev {
+    left: 22% !important;
+}
+.owl-carousel .owl-nav .owl-next {
+    right: 22% !important;
+}
+.location {
+    text-align: center;
+}
+.item-demo
+{
+	height:300px;
+}
+img.authorpage-img{
+	height:300px;
+}
+.realwedding-topdiv {
+    padding: 0 15px;
+}
+.header-button a.button.plain.is-outline.is-small {
+    padding: 6px 24px;
+    width: 100%;
+    font-size: 140%;
+}
+.probox{
+	padding: 6px 10px !important;;
+}
+.probox .orig {
+    font-size: 120% !important;
+}
+
+.text_hidden{
+    /* width: 100%; */
+    min-width: 50px;
+    /* float: left; */
+    margin-bottom: 20px;
+    height: 297px;
+    overflow: hidden; 
+    position: relative;
+    display: block;
+}
+.text_hidden:after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=0);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+}
+@media only screen and (min-width: 850px){
+.row.row-large.row-divided.custom-blogpage {  
+ padding: 40px 0px 0px 0px;
+}
+.col .ms8-hidden {
+    padding-bottom: 0px;
+}
+h2.featured-title-slider{
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    right: 20%;
+	line-height:1.1;
+	font-size: 35px !important;
+	}
+.row.row-large.row-divided.custom-categorypage {
+    padding: 40px 20px 20px 20px;
+}
+.page-id-291 .post-sidebar.large-3,.page-id-2025 .post-sidebar.large-3 {
+    max-width: 22.7% !important;
+    -ms-flex-preferred-size: 22.7%  !important;
+    flex-basis: 22.7%  !important;
+}
+.page-id-291 .large-9, .page-id-2025 .large-9 {
+    max-width: 77.29% !important;
+    -ms-flex-preferred-size: 77.29% !important;
+    flex-basis: 77.29%  !important;
+}
+.post-sidebar.large-3.col {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.row-divided>.col+.col:not(.large-12) {
+    border-left: none;
+}
+.row-large>.flickity-viewport>.flickity-slider>.col, .row-large>.col {
+    padding: 0px 15px 15px;
+    margin-bottom: 0;
+}
+	.realwedding .page-wrapper.row {
+    margin: auto;
+    max-width: 83%;
+}
+.realwedding .page-wrapper .large-8 {
+    max-width: 69.66667%;
+    -ms-flex-preferred-size: 69.66667%;
+    flex-basis: 69.66667%;
+}
+.realwedding .page-wrapper .large-4 {
+    max-width: 30.33333%;
+    -ms-flex-preferred-size: 30.33333%;
+    flex-basis: 30.33333%;
+}
+.show_pros, .hide_pros{
+display:none;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+.real-subheader-part .blog-share {
+position: absolute;
+    top: 40px;
+    right: 15px;
+    display: block;
+}
+.page-template-default .row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.page-id-401 .row {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.page-id-409 .row {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+.wedding-more .details h3 {
+    font-size: 14px;
+}
+h4.authorby {
+    top: 55%;
+	}
+a.sidelist {
+  padding-top:8px;
+  }
+
+h3.featured-title-slider a {
+    font-size: 16px;
+    height: 38px;
+}
+.home.featuredreal .owl-item {
+    height: 170px;
+}
+.media-body.cms-content-container {
+    padding: 40px 0px 0 0px;
+	}
+h1.post-title-slider {
+     width: 70%;
+}
+.col.medium-12.small-12.large-12.realwedauthor {
+    padding-left: 125px;
+}
+.col.medium-6.small-12.large-8.ms8-hidden {
+    padding: 0px;
+    max-width: 68%;
+}
+.col.medium-6.small-12.large-2.ms4-hidden
+{
+	max-width: 26%;
+	margin-right:4%;
+}
+.edit-more .item-demo {
+    height: 160px;
+}
+.owl-carousel.big-slide .owl-item {
+    height: 600px;
+}
+
+}
+
+@media only screen and (min-width: 1350px) {
+.wedding-more .details {
+    width: 100%;
+    padding: 7px 10px 5px;
+}
+.home .row {
+    max-width: 1350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col.medium-6.small-12.large-4.recent-short {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.col.medium-6.small-12.large-8.ms8-hidden {
+    padding: 0px;
+    max-width: 68%;
+}
+.col.medium-6.small-12.large-2.ms4-hidden
+{
+	max-width: 26%;
+	margin-right:4%;
+}
+
+}
+
+@media only screen and (min-width: 1500px){
+.single-realweddings .row.row-collapse.row-full-width {
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.item-demo
+{
+height:258px;
+}
+img.authorpage-img{
+height:258px;
+}
+.recent-single .item-demo {
+    height: 190px;
+}
+ .single-realwedding .row.row-collapse.row-full-width{
+ margin:auto;
+ width:83%;
+ }
+ .row{
+ max-width:1500px;
+ }
+ .x-large-6 {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.realwedding .page-wrapper.row  .x-large-3 {
+    max-width: 20.33333%;
+    -ms-flex-preferred-size: 20.33333%;
+    flex-basis: 20.33333%;
+}
+.realwedding .page-wrapper.row  .x-large-9 {
+    max-width: 79.66667%;
+    -ms-flex-preferred-size: 79.66667%;
+    flex-basis: 79.66667%;
+}
+
+}
+
+@media only screen and (min-width: 1600px) {
+.col .medium-6.small-12.large-4.editpage {
+     margin-bottom: 15px; 
+}		 
+.col.medium-6.small-12.large-4.recent-short {
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+.col.medium-12.small-12.large-12.realwedauthor {
+    padding-left: 150px;
+}
+.col.medium-6.small-12.large-8.ms8-hidden {
+    padding: 0px;
+    max-width: 80%;
+}
+.col.medium-6.small-12.large-2.ms4-hidden
+{
+max-width: 20%;
+ margin-right: 0%;
+}
+
+}
+
+@media only screen and (min-width: 1800px){
+.page-id-409 .row {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+}
+
+@media only screen and (max-width: 1212px){
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link:after {
+display:none;
+}
+}
+
+/* *************************************************************************
+					Media Max() and Min CSS Here
+*************************************************************************** */
+
+@media screen and (max-width: 767px) and (min-width: 550px)
+{
+a.icon.button.circle.is-outline.tooltip.facebook.tooltipstered, a.icon.button.circle.is-outline.tooltip.twitter.tooltipstered, a.icon.button.circle.is-outline.tooltip.email.tooltipstered, a.icon.button.circle.is-outline.tooltip.pinterest.tooltipstered, a.icon.button.circle.is-outline.tooltip.whatsapp.tooltipstered {
+    border: none;
+    background-color: #cccccc;
+    color: #fff;
+    margin-bottom: 0px;
+    min-width: 28px !important;
+    min-height: 28px !important;
+    line-height: 1;
+    padding-top: 5px;
+}
+a.button.primary.text-uppercase.real-btnask {
+	padding-left:5px;
+	padding-right:5px;
+}
+.graphic.graphic-lg{
+   width: 120px;
+    height: 120px;
+}
+.graphic.graphic-lg.img-circle i {
+    font-size: 4em;
+}
+.img-scale{
+    transform: scale(1);
+}
+
+.img-scale h4.text-success {
+    transform: scale(1);
+}
+h4.text-success {
+    transform: scale(.8);
+}
+}
+
+@media screen and (max-width: 849px) and (min-width: 550px){
+h4.authorby {
+    top: 53%;
+	}
+.search .post-sidebar.large-3.col, .author .post-sidebar.large-3.col {
+    padding-left: 15.5%;
+    padding-right:15.5%;
+}
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 850px){
+h4.authorby {
+    top: 58%;
+	}
+.item-demo
+{
+height:300px;
+}
+.recent-single .item-demo {
+    height: 198px;
+}
+img.authorpage-img {
+    height: 300px;
+}
+.edit-more, .wedding-more {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.edit-more .item-demo{
+    height: 230px;
+}
+.wedding-more  .item-demo{
+/* height: 300px; */
+}
+
+/**********16-09-19**************/
+.page-id-287 .md-6 {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.page-id-287 .real-brides-section .row {
+    width: 910px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-id-287 .item-demo {
+    height: 296px !important;
+}
+.template-page-real-weddings .item-demo, .page-template-page-editorials .item-demo{
+ height: 278px !important;
+}
+img.authorpage-img {
+    height: 278px;
+}
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 850px) {
+
+#loadcontent .large-4.realpage, #loadcontents .large-4.editpage {
+    max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+.mobwidth .large-4.authcat{
+max-width: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+#loadcontents .large-3.editcat{
+	max-width: 33.33%;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+}
+.media-left .graphic.img-circle {
+    padding-right: 20px;
+}
+.side-feature{
+	 max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+	}
+.home.featuredreal .owl-item {
+    height: 140px;
+}
+h3.featured-title-slider a {
+    font-size: 16px;
+    max-height: 38px;
+}
+
+}
+
+@media only screen and (max-width: 1350px) and (min-width: 1201px){
+.wedding-more .details {
+    width: 100%;
+    padding: 7px 6px 5px;
+}
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1200px){
+.home .row {
+    max-width: 1350px;
+}
+.item-demo
+{
+height:230.44px;
+}
+img.authorpage-img{
+height:230.44px;
+}
+.recent-single .item-demo {
+    height: 140px;
+}
+.wedding-more .details h4 {
+    font-size: 13px;
+}
+.wedding-more h4.post-title-slider {
+    overflow: hidden;
+    line-height: 1.1;
+    max-height: 33px;
+}
+}
+
+
+

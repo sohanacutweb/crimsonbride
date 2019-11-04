@@ -1,0 +1,22 @@
+.photonic-panel { background:  transparent  !important;
+
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+ }
+.photonic-flickr-stream .photonic-pad-photosets { margin: 15px; }
+.photonic-flickr-stream .photonic-pad-galleries { margin: 15px; }
+.photonic-flickr-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-google-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-zenfolio-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-zenfolio-stream .photonic-pad-photosets { margin: 5px 15px; }
+.photonic-instagram-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-smug-stream .photonic-pad-albums { margin: 15px; }
+.photonic-smug-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-flickr-panel .photonic-pad-photos { padding: 10px 15px; box-sizing: border-box; }
+.photonic-smug-panel .photonic-pad-photos { padding: 10px 15px; box-sizing: border-box; }
+.photonic-random-layout .photonic-thumb { padding: 2px}
+.photonic-masonry-layout .photonic-thumb { padding: 2px}
+.photonic-mosaic-layout .photonic-thumb { padding: 2px}
+.photonic-ie .photonic-masonry-layout .photonic-level-1, .photonic-ie .photonic-masonry-layout .photonic-level-2 { width: 225px; }
